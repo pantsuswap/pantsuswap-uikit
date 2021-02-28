@@ -1950,7 +1950,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     TradeIcon: Icon$W,
     TwitterIcon: Icon$X,
     AuditIcon: Icon$Y,
-    GooseIcon: Icon$Z
+    PikachuIcon: Icon$Z
 });
 
 var MenuButton = styled(Button)(templateObject_1$x || (templateObject_1$x = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
@@ -2083,15 +2083,15 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/goosedefi/",
+                href: "https://github.com/pikachudefi/",
             },
             {
                 label: "Docs",
-                href: "https://goosedefi.gitbook.io/goose-finance/",
+                href: "https://pikachudefi.gitbook.io/pikachu-finance/",
             },
             {
                 label: "Blog",
-                href: "https://goosefinance.medium.com/",
+                href: "https://pikachufinance.medium.com/",
             },
         ],
     },
@@ -2103,7 +2103,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/goosedefi",
+                href: "https://t.me/pikachudefi",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2147,14 +2147,14 @@ var socials = [
             // },
             {
                 label: "Announcements",
-                href: "https://t.me/goosefinanceann",
+                href: "https://t.me/pikachufinanceann",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FinanceGoose",
+        href: "https://twitter.com/PikachuDefi",
     },
 ];
 var MENU_HEIGHT = 64;

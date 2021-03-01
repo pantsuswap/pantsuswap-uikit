@@ -114,14 +114,14 @@ export const links = [
 ];
 
 export const socials = [
-  //{
-    //label: "Telegram",
-    //icon: "TelegramIcon",
-    //items: [
-    //  {
-    //    label: "English",
-    //    href: "https://t.me/pikachudefi",
-    //  },
+  {
+    label: "Telegram",
+    icon: "TelegramIcon",
+    items: [
+      {
+        label: "English",
+        href: "https://t.me/pikachudefi",
+      },
       // {
       //   label: "Bahasa Indonesia",
       //   href: "https://t.me/PancakeSwapIndonesia",
@@ -170,8 +170,8 @@ export const socials = [
       //   label: "Whale Alert",
       //   href: "https://t.me/PancakeSwapWhales",
       // },
-    //],
-  //},
+    ],
+  },
   {
     label: "Twitter",
     icon: "TwitterIcon",

@@ -23,72 +23,72 @@ export const links = [
     icon: "FarmIcon",
     href: "/farms",
   },
-  {
-    label: "Pools",
-    icon: "PoolIcon",
-    href: "/syrup",
-  },
-  {
-    label: "Lottery",
-    icon: "TicketIcon",
-    href: "/lottery",
-  },
-  {
-    label: "NFT",
-    icon: "NftIcon",
-    href: "/nft",
-  },
-  {
-    label: "Profile & Teams",
-    icon: "GroupsIcon",
-    items: [
-      {
-        label: "Leaderboard",
-        href: "/",
-      },
-      {
-        label: "YourProfile",
-        href: "/",
-      },
-    ],
-    calloutClass: "rainbow",
-  },
-  {
-    label: "Info",
-    icon: "InfoIcon",
-    items: [
-      {
-        label: "Overview",
-        href: "https://pancakeswap.info",
-      },
-      {
-        label: "Tokens",
-        href: "https://pancakeswap.info/tokens",
-      },
-      {
-        label: "Pairs",
-        href: "https://pancakeswap.info/pairs",
-      },
-      {
-        label: "Accounts",
-        href: "https://pancakeswap.info/accounts",
-      },
-    ],
-  },
-  {
-    label: "IFO",
-    icon: "IfoIcon",
-    items: [
-      {
-        label: "Next",
-        href: "/ifo",
-      },
-      {
-        label: "History",
-        href: "/ifo/history",
-      },
-    ],
-  },
+  //{
+  //  label: "Pools",
+  //  icon: "PoolIcon",
+  //  href: "/syrup",
+  //},
+  //{
+  //  label: "Lottery",
+  //  icon: "TicketIcon",
+  //  href: "/lottery",
+  //},
+  //{
+  //  label: "NFT",
+  //  icon: "NftIcon",
+  //  href: "/nft",
+  //},
+  //{
+  //  label: "Profile & Teams",
+  //  icon: "GroupsIcon",
+  //  items: [
+  //    {
+  //      label: "Leaderboard",
+  //      href: "/",
+  //    },
+  //    {
+  //      label: "YourProfile",
+  //      href: "/",
+  //    },
+  //  ],
+  //  calloutClass: "rainbow",
+  //},
+  //{
+  //  label: "Info",
+  //  icon: "InfoIcon",
+  //  items: [
+  //    {
+  //      label: "Overview",
+  //      href: "https://pancakeswap.info",
+  //    },
+  //    {
+  //      label: "Tokens",
+  //      href: "https://pancakeswap.info/tokens",
+  //    },
+  //    {
+  //      label: "Pairs",
+  //      href: "https://pancakeswap.info/pairs",
+  //    },
+  //    {
+  //      label: "Accounts",
+  //      href: "https://pancakeswap.info/accounts",
+  //    },
+  //  ],
+  //},
+  //{
+  //  label: "IFO",
+  //  icon: "IfoIcon",
+  //  items: [
+  //    {
+  //      label: "Next",
+  //      href: "/ifo",
+  //    },
+  //    {
+  //      label: "History",
+  //      href: "/ifo/history",
+  //    },
+  //  ],
+  //},
   {
     label: "More",
     icon: "MoreIcon",
@@ -102,26 +102,26 @@ export const links = [
         href: "https://github.com/PikachuDefi/",
       },
       {
-        label: "Docs",
-        href: "https://pikachudefi.gitbook.io/pikachu-finance/",
+        label: "Wiki",
+        href: "https://github.com/PikachuDefi/pikachu-contracts/wiki",
       },
-      {
-        label: "Blog",
-        href: "https://pikachufinance.medium.com/",
-      },
+      //{
+      //  label: "Blog",
+      //  href: "https://pikachufinance.medium.com/",
+      //},
     ],
   },
 ];
 
 export const socials = [
-  {
-    label: "Telegram",
-    icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/pikachudefi",
-      },
+  //{
+    //label: "Telegram",
+    //icon: "TelegramIcon",
+    //items: [
+    //  {
+    //    label: "English",
+    //    href: "https://t.me/pikachudefi",
+    //  },
       // {
       //   label: "Bahasa Indonesia",
       //   href: "https://t.me/PancakeSwapIndonesia",
@@ -162,16 +162,16 @@ export const socials = [
       //   label: "Français",
       //   href: "https://t.me/pancakeswapfr",
       // },
-      {
-        label: "Announcements",
-        href: "https://t.me/pikachufinanceann",
-      },
+      //{
+      //  label: "Announcements",
+      //  href: "https://t.me/pikachufinanceann",
+      //},
       // {
       //   label: "Whale Alert",
       //   href: "https://t.me/PancakeSwapWhales",
       // },
-    ],
-  },
+    //],
+  //},
   {
     label: "Twitter",
     icon: "TwitterIcon",

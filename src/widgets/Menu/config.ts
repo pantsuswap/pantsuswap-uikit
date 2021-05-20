@@ -175,7 +175,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/PikachuDefi",
+    href: "https://twitter.com/cherokeefinance",
   },
 ];
 

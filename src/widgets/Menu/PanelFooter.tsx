@@ -39,7 +39,7 @@ const PriceLink = styled.a`
 `;
 
 const SettingsEntry = styled.div`
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   height: ${MENU_ENTRY_HEIGHT}px;

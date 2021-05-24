@@ -2770,16 +2770,16 @@ var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { sec
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
-var light$6 = {
+({
     background: lightColors.card,
-};
+});
 var dark$6 = {
     background: darkColors.card,
 };
 
 var _a, _b;
 var PRIMARY = variants$1.PRIMARY, SECONDARY = variants$1.SECONDARY, TERTIARY = variants$1.TERTIARY, TEXT = variants$1.TEXT, DANGER = variants$1.DANGER, SUBTLE = variants$1.SUBTLE, SUCCESS = variants$1.SUCCESS;
-var light$5 = (_a = {},
+var light = (_a = {},
     _a[PRIMARY] = {
         background: lightColors.primary,
         backgroundActive: lightColors.primaryDark,
@@ -2852,23 +2852,23 @@ var light$5 = (_a = {},
     },
     _a);
 var dark$5 = (_b = {},
-    _b[PRIMARY] = __assign({}, light$5.primary),
-    _b[SECONDARY] = __assign({}, light$5.secondary),
-    _b[TERTIARY] = __assign(__assign({}, light$5.tertiary), { background: darkColors.tertiary, backgroundActive: darkColors.tertiary, backgroundHover: darkColors.tertiary, color: darkColors.primary }),
-    _b[TEXT] = __assign(__assign({}, light$5.text), { backgroundHover: darkColors.tertiary }),
-    _b[DANGER] = __assign({}, light$5.danger),
-    _b[SUBTLE] = __assign({}, light$5.subtle),
-    _b[SUCCESS] = __assign({}, light$5.success),
+    _b[PRIMARY] = __assign({}, light.primary),
+    _b[SECONDARY] = __assign({}, light.secondary),
+    _b[TERTIARY] = __assign(__assign({}, light.tertiary), { background: darkColors.tertiary, backgroundActive: darkColors.tertiary, backgroundHover: darkColors.tertiary, color: darkColors.primary }),
+    _b[TEXT] = __assign(__assign({}, light.text), { backgroundHover: darkColors.tertiary }),
+    _b[DANGER] = __assign({}, light.danger),
+    _b[SUBTLE] = __assign({}, light.subtle),
+    _b[SUCCESS] = __assign({}, light.success),
     _b);
 
-var light$4 = {
+({
     background: lightColors.card,
     boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     boxShadowActive: shadows.active,
     boxShadowSuccess: shadows.success,
     boxShadowWarning: shadows.warning,
     cardHeaderBackground: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
-};
+});
 var dark$4 = {
     background: darkColors.card,
     boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
@@ -2878,39 +2878,39 @@ var dark$4 = {
     cardHeaderBackground: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
 };
 
-var light$3 = {
+({
     handleBackground: lightColors.card,
-};
+});
 var dark$3 = {
     handleBackground: darkColors.card,
 };
 
-var light$2 = {
+({
     handleBackground: lightColors.card,
-};
+});
 var dark$2 = {
     handleBackground: darkColors.card,
 };
 
-var light$1 = {
+({
     background: lightColors.card,
     hover: "#EEEAF4",
-};
+});
 var dark$1 = {
     background: darkColors.card,
     hover: "#473d5d",
 };
 
-var light = {
+({
     background: lightColors.card,
-};
+});
 var dark = {
     background: darkColors.card,
 };
 
 var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark$6, button: dark$5, colors: darkColors, card: dark$4, toggle: dark$2, nav: dark$1, modal: dark, radio: dark$3 });
 
-var lightTheme = __assign(__assign({}, base), { isDark: true, alert: light$6, button: light$5, colors: lightColors, card: light$4, toggle: light$2, nav: light$1, modal: light, radio: light$3 });
+var lightTheme = __assign(__assign({}, base), { isDark: true, alert: dark$6, button: dark$5, colors: darkColors, card: dark$4, toggle: dark$2, nav: dark$1, modal: dark, radio: dark$3 });
 
 exports.AddIcon = Icon$10;
 exports.Alert = Alert;

@@ -2757,16 +2757,16 @@ var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { sec
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
-var light$6 = {
+({
     background: lightColors.card,
-};
+});
 var dark$6 = {
     background: darkColors.card,
 };
 
 var _a, _b;
 var PRIMARY = variants$1.PRIMARY, SECONDARY = variants$1.SECONDARY, TERTIARY = variants$1.TERTIARY, TEXT = variants$1.TEXT, DANGER = variants$1.DANGER, SUBTLE = variants$1.SUBTLE, SUCCESS = variants$1.SUCCESS;
-var light$5 = (_a = {},
+var light = (_a = {},
     _a[PRIMARY] = {
         background: lightColors.primary,
         backgroundActive: lightColors.primaryDark,
@@ -2839,23 +2839,23 @@ var light$5 = (_a = {},
     },
     _a);
 var dark$5 = (_b = {},
-    _b[PRIMARY] = __assign({}, light$5.primary),
-    _b[SECONDARY] = __assign({}, light$5.secondary),
-    _b[TERTIARY] = __assign(__assign({}, light$5.tertiary), { background: darkColors.tertiary, backgroundActive: darkColors.tertiary, backgroundHover: darkColors.tertiary, color: darkColors.primary }),
-    _b[TEXT] = __assign(__assign({}, light$5.text), { backgroundHover: darkColors.tertiary }),
-    _b[DANGER] = __assign({}, light$5.danger),
-    _b[SUBTLE] = __assign({}, light$5.subtle),
-    _b[SUCCESS] = __assign({}, light$5.success),
+    _b[PRIMARY] = __assign({}, light.primary),
+    _b[SECONDARY] = __assign({}, light.secondary),
+    _b[TERTIARY] = __assign(__assign({}, light.tertiary), { background: darkColors.tertiary, backgroundActive: darkColors.tertiary, backgroundHover: darkColors.tertiary, color: darkColors.primary }),
+    _b[TEXT] = __assign(__assign({}, light.text), { backgroundHover: darkColors.tertiary }),
+    _b[DANGER] = __assign({}, light.danger),
+    _b[SUBTLE] = __assign({}, light.subtle),
+    _b[SUCCESS] = __assign({}, light.success),
     _b);
 
-var light$4 = {
+({
     background: lightColors.card,
     boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     boxShadowActive: shadows.active,
     boxShadowSuccess: shadows.success,
     boxShadowWarning: shadows.warning,
     cardHeaderBackground: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
-};
+});
 var dark$4 = {
     background: darkColors.card,
     boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
@@ -2865,38 +2865,38 @@ var dark$4 = {
     cardHeaderBackground: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
 };
 
-var light$3 = {
+({
     handleBackground: lightColors.card,
-};
+});
 var dark$3 = {
     handleBackground: darkColors.card,
 };
 
-var light$2 = {
+({
     handleBackground: lightColors.card,
-};
+});
 var dark$2 = {
     handleBackground: darkColors.card,
 };
 
-var light$1 = {
+({
     background: lightColors.card,
     hover: "#EEEAF4",
-};
+});
 var dark$1 = {
     background: darkColors.card,
     hover: "#473d5d",
 };
 
-var light = {
+({
     background: lightColors.card,
-};
+});
 var dark = {
     background: darkColors.card,
 };
 
 var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark$6, button: dark$5, colors: darkColors, card: dark$4, toggle: dark$2, nav: dark$1, modal: dark, radio: dark$3 });
 
-var lightTheme = __assign(__assign({}, base), { isDark: true, alert: light$6, button: light$5, colors: lightColors, card: light$4, toggle: light$2, nav: light$1, modal: light, radio: light$3 });
+var lightTheme = __assign(__assign({}, base), { isDark: true, alert: dark$6, button: dark$5, colors: darkColors, card: dark$4, toggle: dark$2, nav: dark$1, modal: dark, radio: dark$3 });
 
 export { Icon$10 as AddIcon, Alert, Icon$$ as ArrowBackIcon, Icon$_ as ArrowDownIcon, Icon$Z as ArrowDropDownIcon, Icon$Y as ArrowDropUpIcon, Icon$X as ArrowForwardIcon, Icon$W as AutoRenewIcon, BackgroundImage, GridLayout$1 as BaseLayout, Icon$V as BinanceIcon, Icon$12 as BlockIcon, Breadcrumbs, Icon$U as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$S as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$T as CardViewIcon, GridLayout as CardsLayout, Checkbox, Icon$14 as CheckmarkCircleIcon, Icon$R as CheckmarkIcon, Icon$Q as ChevronDownIcon, Icon$P as ChevronLeftIcon, Icon$O as ChevronRightIcon, Icon$N as ChevronUpIcon, Icon$M as CloseIcon, Icon$L as CogIcon, Icon$K as CommunityIcon, Icon$J as CopyIcon, Dropdown, Icon$13 as ErrorIcon, Flex, Heading, Icon$I as HelpIcon, IconButton, Image, Icon$11 as InfoIcon, Input$1 as Input, Link, LinkExternal, Icon$H as ListViewIcon, Icon$G as LogoIcon, Icon$F as LogoRoundIcon, Menu, Icon$E as MinusIcon, Modal, ModalProvider, Icon$D as OpenNewIcon, Icon$B as PancakeRoundIcon, Icon$C as PancakesIcon, Icon$A as PrizeIcon, Progress, Icon$x as ProgressBunny, Radio, Icon$z as RemoveIcon, ResetCSS, Icon$t as SearchIcon, Skeleton, Spinner, Svg, Icon$s as SwapVertIcon, Icon$r as SyncAltIcon, Tag, Text, Icon$v as Ticket, Icon$u as TicketRound, ToastContainer, Toggle, Icon$y as VerifiedIcon, Icon$q as WarningIcon, Icon$w as Won, variants as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };

@@ -2269,7 +2269,7 @@ var Container = styled.div(templateObject_1$8 || (templateObject_1$8 = __makeTem
     return theme.nav.background;
 });
 var PriceLink = styled.a(templateObject_2$3 || (templateObject_2$3 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
-var SettingsEntry = styled.div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
+var SettingsEntry = styled.div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: none;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: none;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled.div(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
     var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, cakePriceUsd = _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang; var priceLink = _a.priceLink;
@@ -2739,21 +2739,21 @@ var ResetCSS = createGlobalStyle(templateObject_1 || (templateObject_1 = __makeT
 var templateObject_1;
 
 var baseColors = {
-    failure: "#ED4B9E",
-    primary: "#8a6a10",
-    primaryBright: "#67500c",
-    primaryDark: "#8f6e10",
-    secondary: "#a56227",
-    success: "#31D0AA",
-    warning: "#FFB237",
+    failure: "#ff3030",
+    primary: "#faa400",
+    primaryBright: "#cb8500",
+    primaryDark: "#cb8500",
+    secondary: "#ffdd9c",
+    success: "#00fa6a",
+    warning: "#fe0000",
 };
 var brandColors = {
-    binance: "#F0B90B",
+    binance: "#faa400",
 };
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: '#69552e', textDisabled: '#998c83', textSubtle: '#836a38', borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#be7434", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#ffffff", background: "#1b0202", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#6e0000", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
@@ -2897,6 +2897,6 @@ var dark = {
 
 var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark$6, button: dark$5, colors: darkColors, card: dark$4, toggle: dark$2, nav: dark$1, modal: dark, radio: dark$3 });
 
-var lightTheme = __assign(__assign({}, base), { isDark: false, alert: light$6, button: light$5, colors: lightColors, card: light$4, toggle: light$2, nav: light$1, modal: light, radio: light$3 });
+var lightTheme = __assign(__assign({}, base), { isDark: true, alert: light$6, button: light$5, colors: lightColors, card: light$4, toggle: light$2, nav: light$1, modal: light, radio: light$3 });
 
 export { Icon$10 as AddIcon, Alert, Icon$$ as ArrowBackIcon, Icon$_ as ArrowDownIcon, Icon$Z as ArrowDropDownIcon, Icon$Y as ArrowDropUpIcon, Icon$X as ArrowForwardIcon, Icon$W as AutoRenewIcon, BackgroundImage, GridLayout$1 as BaseLayout, Icon$V as BinanceIcon, Icon$12 as BlockIcon, Breadcrumbs, Icon$U as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$S as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$T as CardViewIcon, GridLayout as CardsLayout, Checkbox, Icon$14 as CheckmarkCircleIcon, Icon$R as CheckmarkIcon, Icon$Q as ChevronDownIcon, Icon$P as ChevronLeftIcon, Icon$O as ChevronRightIcon, Icon$N as ChevronUpIcon, Icon$M as CloseIcon, Icon$L as CogIcon, Icon$K as CommunityIcon, Icon$J as CopyIcon, Dropdown, Icon$13 as ErrorIcon, Flex, Heading, Icon$I as HelpIcon, IconButton, Image, Icon$11 as InfoIcon, Input$1 as Input, Link, LinkExternal, Icon$H as ListViewIcon, Icon$G as LogoIcon, Icon$F as LogoRoundIcon, Menu, Icon$E as MinusIcon, Modal, ModalProvider, Icon$D as OpenNewIcon, Icon$B as PancakeRoundIcon, Icon$C as PancakesIcon, Icon$A as PrizeIcon, Progress, Icon$x as ProgressBunny, Radio, Icon$z as RemoveIcon, ResetCSS, Icon$t as SearchIcon, Skeleton, Spinner, Svg, Icon$s as SwapVertIcon, Icon$r as SyncAltIcon, Tag, Text, Icon$v as Ticket, Icon$u as TicketRound, ToastContainer, Toggle, Icon$y as VerifiedIcon, Icon$q as WarningIcon, Icon$w as Won, variants as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };

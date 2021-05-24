@@ -11,7 +11,7 @@ import { lightColors } from "./colors";
 
 const lightTheme: DefaultTheme = {
   ...base,
-  isDark: false,
+  isDark: true,
   alert: lightAlert,
   button: lightButton,
   colors: lightColors,

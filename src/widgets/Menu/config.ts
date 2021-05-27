@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        href: "https://dex.cherokee.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        href: "https://dex.cherokee.finance/#/pool",
       },
     ],
   },
@@ -23,159 +23,130 @@ export const links = [
     icon: "FarmIcon",
     href: "/farms",
   },
-  //{
-  //  label: "Pools",
-  //  icon: "PoolIcon",
-  //  href: "/syrup",
-  //},
-  //{
-  //  label: "Lottery",
-  //  icon: "TicketIcon",
-  //  href: "/lottery",
-  //},
-  //{
-  //  label: "NFT",
-  //  icon: "NftIcon",
-  //  href: "/nft",
-  //},
-  //{
-  //  label: "Profile & Teams",
-  //  icon: "GroupsIcon",
-  //  items: [
-  //    {
-  //      label: "Leaderboard",
-  //      href: "/",
-  //    },
-  //    {
-  //      label: "YourProfile",
-  //      href: "/",
-  //    },
-  //  ],
-  //  calloutClass: "rainbow",
-  //},
-  //{
-  //  label: "Info",
-  //  icon: "InfoIcon",
-  //  items: [
-  //    {
-  //      label: "Overview",
-  //      href: "https://pancakeswap.info",
-  //    },
-  //    {
-  //      label: "Tokens",
-  //      href: "https://pancakeswap.info/tokens",
-  //    },
-  //    {
-  //      label: "Pairs",
-  //      href: "https://pancakeswap.info/pairs",
-  //    },
-  //    {
-  //      label: "Accounts",
-  //      href: "https://pancakeswap.info/accounts",
-  //    },
-  //  ],
-  //},
-  //{
-  //  label: "IFO",
-  //  icon: "IfoIcon",
-  //  items: [
-  //    {
-  //      label: "Next",
-  //      href: "/ifo",
-  //    },
-  //    {
-  //      label: "History",
-  //      href: "/ifo/history",
-  //    },
-  //  ],
-  //},
+  {
+    label: "Pools",
+    icon: "PoolIcon",
+    href: "/syrup",
+  },
+  {
+    label: "Lottery",
+    icon: "TicketIcon",
+    href: "/lottery",
+  },
+  {
+    label: "NFT",
+    icon: "NftIcon",
+    href: "/nft",
+  },
+  {
+    label: "Profile & Teams",
+    icon: "GroupsIcon",
+    items: [
+      {
+        label: "Leaderboard",
+        href: "/",
+      },
+      {
+        label: "YourProfile",
+        href: "/",
+      },
+    ],
+    calloutClass: "rainbow",
+  },
+  {
+    label: "Info",
+    icon: "InfoIcon",
+    items: [
+      {
+        label: "Overview",
+        href: "https://cherokee.info",
+      },
+      {
+        label: "Tokens",
+        href: "https://cherokee.info/tokens",
+      },
+      {
+        label: "Pairs",
+        href: "https://cherokee.info/pairs",
+      },
+      {
+        label: "Accounts",
+        href: "https://cherokee.info/accounts",
+      },
+    ],
+  },
+  {
+    label: "IFO",
+    icon: "IfoIcon",
+    items: [
+      {
+        label: "Next",
+        href: "/ifo",
+      },
+      {
+        label: "History",
+        href: "/ifo/history",
+      },
+    ],
+  },
   {
     label: "More",
     icon: "MoreIcon",
     items: [
-      // {
-      //   label: "Voting",
-      //   href: "https://voting.pancakeswap.finance",
-      // },
+      {
+        label: "Voting",
+        href: "https://voting.cherokee.finance",
+      },
       {
         label: "Github",
-        href: "https://github.com/PikachuDefi/",
+        href: "https://github.com/pancakeswap",
       },
       {
-        label: "Wiki",
-        href: "https://github.com/PikachuDefi/pikachu-contracts/wiki",
+        label: "Docs",
+        href: "https://docs.cherokee.finance",
       },
-      //{
-      //  label: "Blog",
-      //  href: "https://pikachufinance.medium.com/",
-      //},
+      {
+        label: "Blog",
+        href: "https://cherokee.medium.com",
+      },
     ],
   },
 ];
 
 export const socials = [
-  //{
-    //label: "Telegram",
-    //icon: "TelegramIcon",
-    //items: [
-    //  {
-    //    label: "English",
-    //    href: "https://t.me/pikachudefi",
-    //  },
-      // {
-      //   label: "Bahasa Indonesia",
-      //   href: "https://t.me/PancakeSwapIndonesia",
-      // },
-      // {
-      //   label: "中文",
-      //   href: "https://t.me/PancakeSwap_CN",
-      // },
-      // {
-      //   label: "Tiếng Việt",
-      //   href: "https://t.me/PancakeSwapVN",
-      // },
-      // {
-      //   label: "Italiano",
-      //   href: "https://t.me/pancakeswap_ita",
-      // },
-      // {
-      //   label: "русский",
-      //   href: "https://t.me/pancakeswap_ru",
-      // },
-      // {
-      //   label: "Türkiye",
-      //   href: "https://t.me/pancakeswapturkiye",
-      // },
-      // {
-      //   label: "Português",
-      //   href: "https://t.me/PancakeSwapPortuguese",
-      // },
-      // {
-      //   label: "Español",
-      //   href: "https://t.me/PancakeswapEs",
-      // },
-      // {
-      //   label: "日本語",
-      //   href: "https://t.me/pancakeswapjp",
-      // },
-      // {
-      //   label: "Français",
-      //   href: "https://t.me/pancakeswapfr",
-      // },
-      //{
-      //  label: "Announcements",
-      //  href: "https://t.me/pikachufinanceann",
-      //},
-      // {
-      //   label: "Whale Alert",
-      //   href: "https://t.me/PancakeSwapWhales",
-      // },
-    //],
-  //},
+  {
+    label: "Github",
+    icon: "GithubIcon",
+    href: "https://github.com/cherokee",
+  },
+  {
+    label: "Docs",
+    icon: "GitbookIcon",
+    href: "https://docs.cherokee.finance",
+  },
+  {
+    label: "Medium",
+    icon: "MediumIcon",
+    href: "https://cherokee.medium.com",
+  },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/cherokeefinance",
+    href: "https://twitter.com/CherokeeFinance",
+  },
+  {
+    label: "Telegram",
+    icon: "TelegramIcon",
+    items: [
+      {
+        label: "English",
+        href: "https://t.me/cherokeefinance",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/cherokeefinanceAnn",
+      },
+    ],
   },
 ];
 

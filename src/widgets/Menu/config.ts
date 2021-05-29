@@ -139,7 +139,7 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "English",
+        label: "Chat - en",
         href: "https://t.me/cherokeefinance",
       },
       {

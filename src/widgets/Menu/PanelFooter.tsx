@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { PancakeRoundIcon, CogIcon, SvgProps } from "../../components/Svg";
+import { PancakeRoundIcon, OpenNewIcon, CogIcon, MetamaskIcon,  SvgProps } from "../../components/Svg";
 import Text from "../../components/Text/Text";
 import Flex from "../../components/Flex/Flex";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Link from "../../components/Link/Link";
+import LinkExternal from "../../components/Link/LinkExternal";
 import Skeleton from "../../components/Skeleton/Skeleton";
 import Button from "../../components/Button/Button";
 import IconButton from "../../components/Button/IconButton";
@@ -54,6 +55,37 @@ const SocialEntry = styled.div`
   padding: 0 16px;
 `;
 
+const openInMetamask = () => {
+
+	const provider = window.web3.currentProvider
+              provider.sendAsync({
+                method: 'metamask_watchAsset',
+                params: {
+                  "type":"ERC20",
+                  "options":{
+                    "address": "0x30f38e9151FD9C4eCF539418E505d6A8407214AD",
+                    "symbol": "CHEROKEE",
+                    "decimals": 18,
+                    "image": "https://www.cherokee.finance/img/logo.png",
+                  },
+                },
+                id: Math.round(Math.random() * 100000),
+              }, (err, added) => {
+                console.log('provider returned', err, added)
+                if (err || 'error' in added) {
+                  this.setState({
+                    errorMessage: 'There was a problem adding the token.',
+                    message: '',
+                  })
+                  return
+                }
+                this.setState({
+                  message: 'Token added!',
+                  errorMessage: '',
+                })
+              })
+
+}
 const PanelFooter: React.FC<Props> = ({
   isPushed,
   pushNav,
@@ -86,26 +118,7 @@ const PanelFooter: React.FC<Props> = ({
         ) : (
           <Skeleton width={80} height={24} />
         )}
-        <Dropdown
-          position="top-right"
-          target={
-            <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
-              <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
-            </Button>
-          }
-        >
-          {langs.map((lang) => (
-            <MenuButton
-              key={lang.code}
-              fullWidth
-              onClick={() => setLang(lang)}
-              // Safari fix
-              style={{ minHeight: "32px", height: "auto" }}
-            >
-              {lang.language}
-            </MenuButton>
-          ))}
-        </Dropdown>
+	<Button size="sm" variant="text" onClick={openInMetamask}><MetamaskIcon /><OpenNewIcon /></Button>
       </SocialEntry>
       <SettingsEntry>
         {/*<Button variant="text" onClick={() => toggleTheme(!isDark)}>*/}

@@ -13,6 +13,7 @@ import MenuButton from "./MenuButton";
 import * as IconModule from "./icons";
 import { socials, MENU_ENTRY_HEIGHT } from "./config";
 import { PanelProps, PushedProps } from "./types";
+import Web3 from 'web3';
 
 interface Props extends PanelProps, PushedProps {}
 
@@ -55,7 +56,9 @@ const SocialEntry = styled.div`
   padding: 0 16px;
 `;
 
-const openInMetamask = () => {
+declare const window: any;
+
+const openInMetamask = (callback:any) => {
 
 	const provider = window.web3.currentProvider
               provider.sendAsync({
@@ -70,19 +73,11 @@ const openInMetamask = () => {
                   },
                 },
                 id: Math.round(Math.random() * 100000),
-              }, (err, added) => {
+              }, (err:any, added:any) => {
                 console.log('provider returned', err, added)
                 if (err || 'error' in added) {
-                  this.setState({
-                    errorMessage: 'There was a problem adding the token.',
-                    message: '',
-                  })
                   return
                 }
-                this.setState({
-                  message: 'Token added!',
-                  errorMessage: '',
-                })
               })
 
 }

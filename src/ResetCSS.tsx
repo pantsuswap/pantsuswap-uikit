@@ -47,6 +47,13 @@ const ResetCSS = createGlobalStyle`
     content: "";
     content: none;
   }
+  .absolute-full, .fixed-full, .fullscreen {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -74,11 +81,11 @@ const ResetCSS = createGlobalStyle`
   }
   ::-webkit-scrollbar-thumb {
     background: ${({ theme }) => theme.colors.textSubtle}; 
-    border-radius: 8px;
+    border-radius: 4px;
   }
   ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px ${({ theme }) => theme.colors.input}; 
-    border-radius: 10px;
+    border-radius: 5px;
   }
 `;
 

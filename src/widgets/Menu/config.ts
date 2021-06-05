@@ -19,6 +19,11 @@ export const links = [
     ],
   },
   {
+    label: "Buy APACHE",
+    icon: "TradeIcon",
+    href: "https://app.apache.finance",
+  },
+  {
     label: "Farms",
     icon: "FarmIcon",
     href: "/farms",
@@ -117,18 +122,18 @@ export const socials = [
   {
     label: "Github",
     icon: "GithubIcon",
-    href: "https://github.com/cherokee",
+    href: "https://github.com/cherokeefinance",
   },
   {
     label: "Docs",
     icon: "GitbookIcon",
-    href: "https://docs.cherokee.finance",
+    href: "https://cherokee.gitbook.io/cherokeefinance/",
   },
-  {
-    label: "Medium",
-    icon: "MediumIcon",
-    href: "https://cherokee.medium.com",
-  },
+  // {
+  //  label: "Medium",
+  //  icon: "MediumIcon",
+  //  href: "https://cherokee.medium.com",
+  // },
   {
     label: "Twitter",
     icon: "TwitterIcon",
@@ -139,7 +144,7 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "Chat - en",
+        label: "Community",
         href: "https://t.me/cherokeefinance",
       },
       {

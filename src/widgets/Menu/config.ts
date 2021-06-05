@@ -19,6 +19,11 @@ export const links = [
     ],
   },
   {
+    label: "Buy APACHE",
+    icon: "TradeIcon",
+    href: "https://app.apache.finance",
+  },
+  {
     label: "Farms",
     icon: "FarmIcon",
     href: "/farms",

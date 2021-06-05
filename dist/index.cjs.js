@@ -1951,7 +1951,7 @@ var useModal = function (modal, closeOnOverlayClick) {
 
 var Icon$x = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { d: "M13.3 2.79L9.8 6.29L10.5 7L11.9 5.61L13 6.71V9C13 10.11 12.11 11 11 11H10.46A6 6 0 0 1 12 15A6 6 0 0 1 11.91 16H15.03A4.5 4.5 0 0 1 19.5 12A4.5 4.5 0 0 1 22 12.76V8C22 6.89 21.11 6 20 6H13.71L12.61 4.9L14 3.5L13.3 2.79M4 7C3.45 7 3 7.45 3 8C3 8.55 3.45 9 4 9H9C9 7.9 8.11 7 7 7H4M6 10A5 5 0 0 0 4.44 10.25L4.8 11.18L4.33 11.36L4 10.43A5 5 0 0 0 1.54 12.74L2.45 13.15L2.24 13.6L1.34 13.2A5 5 0 0 0 1 15A5 5 0 0 0 1.25 16.56L2.18 16.2L2.36 16.67L1.43 17A5 5 0 0 0 3.74 19.46L4.14 18.55L4.6 18.76L4.2 19.66A5 5 0 0 0 6 20A5 5 0 0 0 7.56 19.75L7.2 18.82L7.67 18.64L8 19.57A5 5 0 0 0 10.46 17.26L9.55 16.86L9.76 16.4L10.66 16.8A5 5 0 0 0 11 15A5 5 0 0 0 10.75 13.44L9.82 13.8L9.64 13.33L10.57 13A5 5 0 0 0 8.26 10.54L7.86 11.45L7.4 11.24L7.8 10.34A5 5 0 0 0 6 10M6 12A3 3 0 0 1 9 15A3 3 0 0 1 6 18A3 3 0 0 1 3 15A3 3 0 0 1 6 12M19.5 13A3.5 3.5 0 0 0 16 16.5A3.5 3.5 0 0 0 19.5 20A3.5 3.5 0 0 0 23 16.5A3.5 3.5 0 0 0 19.5 13M19.5 15A1.5 1.5 0 0 1 21 16.5A1.5 1.5 0 0 1 19.5 18A1.5 1.5 0 0 1 18 16.5A1.5 1.5 0 0 1 19.5 15Z" })));
+        React__default['default'].createElement("image", { href: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAANJQTFRFAAAAqHAZc0oQn2oYv4Ad5ZkjuXscuXwcs3cbuXwbzokfzokftnobZk0A0owgx4UeakAAp3AZp3AaxoUeu30ch1oV35Ui3JMhhVoTyIUevH0ciVoTw4MdxIMew4MdiVwVe1IRlmQX4pciz4ogx4QeiVwVhlgTyYYez4oflmQWz4of5JgjwoEen2oXnmoX0YsgxIMeoWwYoGsY040gxIMeyIYesncboWwYs3ca1Y4g0YsgzIgfbUkAtnkboWwYt3oac0oQ0Isf0YsfdUkPwIAduXwbi5bLDAAAAEZ0Uk5TAHIHY9D/bWy7iO7vXwLm2QJ2UK+NMf38IbydKnDibCckTv/pmzoxnOk0xf+oXT/by1o+5cjae0FU7drlA2BiYQvu7giXbyrdqWMAAAC1SURBVHichZDXEoIwFEQjunbsXbFgF7so9u7//5KYUCUz7ENu5pxsMhNC/BMQhCCPhxCOIMoRMcQTSHKEmALSGd5dWSDHfTwPFHi8WALKFY6oQk+NI+oNSWq2vLztGnY6crfXHwxH8vhPTPQHFEVfpm4++zEaZe4SC1hZOvkKjqwdYkOJqtKxtfmOHdU0NvcmFw+sQMiRbk5nQ1yMAiFXtrsxfn+YBbPyfFHxtgpW5eP9Mv98AViVDmEUG+qFAAAAAElFTkSuQmCC", width: "24" })));
 };
 
 var Icon$w = function (props) {
@@ -2014,7 +2014,7 @@ var Icon$n = function (props) {
 
 var Icon$m = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { d: "M17.2,5V5C17.8,5 18.4,5 18.9,5.1C19.1,7.4 19.1,12 16.4,15.2C14.4,17.7 11,19 6.4,19C6,19 5.5,19 5.1,19C4.9,14.4 5.8,10.8 7.9,8.5C10.4,5.6 14.4,5 17.2,5M17.2,3C11.7,3 1.6,5.1 3.2,20.8C4.3,20.9 5.4,21 6.4,21C24.3,21 20.7,3.3 20.7,3.3C20.7,3.3 19.3,3 17.2,3M17,7C7,7 7,17 7,17C11,9 17,7 17,7Z" })));
+        React__default['default'].createElement("image", { href: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAn9QTFRFAAAAq3IZq3MZpW4Zvn8cmGUWpW4Yyocfpm4YpW0ZxoQe1I4g0Isg0Isfw4Idv4Acz4ofxoQekGAVyocesHYasXYb0owgeFAPdVAQsHUakGAUtnocyIYez4oftXkbfFIT3JMhdUkPfFMStnkbtXkbh1oU0owg1I0g2JAhxoQeQCAAzYkfiFsUTTMAr3UaxoQexoQe0owgmmYXtnkbxoUeoGsXvX4dpm8ZoWsXmmcXxYQernUa3JQh3JMhuXwc0Isfv38cdEsN1Y4gyYYe0Ywg4JYiv38dunwc25Mh25Mhtnob1o8ghVgUqHIZ1I4gsHYbxoUezoofj2AVdEwPsXcb1I4ghVkTwYEdzokfxYQe0owgnWgWp28ZzoofmmgX0YsgeVEQm2gXzoofpnAZzoofz4ofv38chFgTunwc1o8gp28ZzYkf35Uh1o8hvX4cvn4c35UipnAZu3wcp3AYyoce0Ywgx4UetHkbqXEZ0Ysg0YwgvX4cp3AZ040gelESp3AZvX4c0owgtXkbyocew4Iezoofvn8dzYkfzokfzIgfwoIdxIMefFQTdU8R0Isfzoofc08RflQSxYQew4Idw4IdxIMdx4Ueq3Maj18Vl2UWyIYe2JAhsXcauXsby4gf0owguHsbsncayIYemGUWq3IanWgW25IhzoofzYkf1o8g3JMh3JMifVMS0YwgnmkXnmsX0IsgfVQR3JMhzokfzoofvX4cjmAVpG4YxIMd1o8g5Zkj5JgjcEcKcUwJjV8Vw4Idzokf15Ahy4gfxYMezYkf4ZYizYkf148h3JMiwoIdiFwUwYEd3JMhz4ofw4IeuXwctXkbtnocv4AdyYYezooftAzHvAAAANV0Uk5TABkZETEVH8kiEZnv3OCeleCYGt5Mb/QGBkwaXpPtNxT9CBQ2XhDYr+V/AfRFARNxoe0pa80dyn4eKXESM+qT4Y0Ly7r0/46T6jNX3SMq60t/6F0cS+wj0u3b3SpO4GvmF2vfTu3LYgp78Gag/vaOjv5mex/G4YU6WdzsaUvqCExq7DrHysJprNqjyYkHCfWpCAeKycqqsywjQ5r1LVOL6lIum0MsP/3l5NvW2A3CVlfCDdjl3okgKzFpzMwDAyCr1HWHm7zyxMryqhF4mZaPhXdkTzmWNIlzHgAAAYVJREFUeJxjYKAJYGTCIsjMwsrGzs7BysKJJsHFzcPLxy/Awy2IKi4kLCIqJi4hJiopLIUsLi0jKyevoKiooKQsK6OCEFdVU9fQ1NLW0dHW1dRQV1OFCuvpGxgaGZuYmpmbm1mYGFsaGlhZgyVsbO3sHRydnF1cXV2cnRzd7N09PMESXt4+vn7+AYFBwcFBgQEhob5h3l4g8fCIyKjomNi4+AQGhoT4xKTk6KjIlHCgRGpaekZmVnZObh4DQ35uQXZhZlF6WioDQ3FJaVl5RWVVdU1tXV1tfUNjZUVTWWlzMUNLa1t7R2dXd09vX39/34SJkyZ3drS3tU5hmDpt+oyZs2bPYZhbO2/e/AUMC2cvWjxjybSpDEuXLV+xctXqNQxr1zEwrN/AsHHTqpUrNi9byrBl67btO3buYmDYvYeBYe9uBoZdO3ds37d1C8P+AwcPHT5y9NjxEyC3nzh+7OiRw4cOHjjJcOr0mbPnzl+4eOkySOLypYsXzp+7cub0KdLjGScAAHdlhKWir89zAAAAAElFTkSuQmCC", width: "24" })));
 };
 
 var Icon$l = function (props) {
@@ -2907,7 +2907,7 @@ var templateObject_1;
 
 var baseColors = {
     failure: "#F72B50",
-    primary: "#ff6600",
+    primary: "#faa400",
     primaryBright: "#e66000",
     primaryDark: "#d95b00",
     secondary: "#7645D9",
@@ -2920,7 +2920,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputBorder: "#cccccc", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#FF720D", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#e9f1fd", background: "#1f2b46", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#0a0e17", input: "#483f3b", inputBorder: "#cccccc", primaryDark: "#d95b00", tertiary: "#2d2f37", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#ff6600", borderColor: "#524B63", card: "#121827", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#e9f1fd", background: "#1f2b46", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#0a0e17", input: "#483f3b", inputBorder: "#cccccc", primaryDark: "#d95b00", tertiary: "#2d2f37", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#faa400", borderColor: "#524B63", card: "#121827", gradients: {
         bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",
     } });
 

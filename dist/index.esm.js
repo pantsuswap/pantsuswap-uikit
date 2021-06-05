@@ -2265,12 +2265,12 @@ var socials = [
     {
         label: "Github",
         icon: "GithubIcon",
-        href: "https://github.com/cherokee",
+        href: "https://github.com/cherokeefinance",
     },
     {
         label: "Docs",
         icon: "GitbookIcon",
-        href: "https://docs.cherokee.finance",
+        href: "https://cherokee.gitbook.io/cherokeefinance/",
     },
     {
         label: "Medium",
@@ -2287,7 +2287,7 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "Chat - en",
+                label: "Community",
                 href: "https://t.me/cherokeefinance",
             },
             {

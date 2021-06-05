@@ -129,11 +129,11 @@ export const socials = [
     icon: "GitbookIcon",
     href: "https://cherokee.gitbook.io/cherokeefinance/",
   },
-  {
-    label: "Medium",
-    icon: "MediumIcon",
-    href: "https://cherokee.medium.com",
-  },
+  // {
+  //  label: "Medium",
+  //  icon: "MediumIcon",
+  //  href: "https://cherokee.medium.com",
+  // },
   {
     label: "Twitter",
     icon: "TwitterIcon",

@@ -66,7 +66,7 @@ const openInMetamask = (callback:any) => {
                 params: {
                   "type":"ERC20",
                   "options":{
-                    "address": "0x30f38e9151FD9C4eCF539418E505d6A8407214AD",
+                    "address": "0xed78e2c34b18B07F3Cfa74506EB7AE4f09FAD47a",
                     "symbol": "CHEROKEE",
                     "decimals": 18,
                     "image": "https://www.cherokee.finance/img/logo.png",

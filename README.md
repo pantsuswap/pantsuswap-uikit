@@ -1,20 +1,20 @@
-# Cherokee UIkit
+# PantsuSwap UIkit
 
-Cherokee UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
+PantsuSwap UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
-`yarn add @cherokeefinance/cherokee-uikit`
+`yarn add @pantsuswap/pantsuswap-uikit`
 
 ## Setup
 
 ### Theme
 
-Before using Cherokee UIkit, you need to provide the theme file to styled-component.
+Before using PantsuSwap UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@cherokeefinance/cherokee-uikit'
+import { light, dark } from '@pantsuswap/pantsuswap-uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -24,7 +24,7 @@ import { light, dark } from '@cherokeefinance/cherokee-uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@cherokeefinance/cherokee-uikit'
+import { ResetCSS } from '@pantsuswap/pantsuswap-uikit'
 ...
 <ResetCSS />
 ```

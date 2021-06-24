@@ -122,12 +122,12 @@ export const socials = [
   {
     label: "Github",
     icon: "GithubIcon",
-    href: "https://github.com/cherokeefinance",
+    href: "https://github.com/pantsuswap",
   },
   {
     label: "Docs",
     icon: "GitbookIcon",
-    href: "https://cherokee.gitbook.io/cherokeefinance/",
+    href: "https://pantsuswap.gitbook.io/pantsuswap/",
   },
   // {
   //  label: "Medium",
@@ -137,7 +137,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/CherokeeFinance",
+    href: "https://twitter.com/PantsuSwap",
   },
   {
     label: "Telegram",
@@ -145,11 +145,11 @@ export const socials = [
     items: [
       {
         label: "Community",
-        href: "https://t.me/cherokeefinance",
+        href: "https://t.me/pantsuswapchat",
       },
       {
         label: "Announcements",
-        href: "https://t.me/cherokeefinanceAnn",
+        href: "https://t.me/pantsuswapnews",
       },
     ],
   },

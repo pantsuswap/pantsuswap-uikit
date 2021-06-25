@@ -2166,7 +2166,7 @@ var Logo = function (_a) {
         React__default['default'].createElement(Logo$1, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "14px" }, isPushed ? (React__default['default'].createElement(Icon$v, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$w, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Cherokee home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Panther home page" }, innerLogo))));
+        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "PantsuSwap home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "PantsuSwap home page" }, innerLogo))));
 };
 var templateObject_1$c;
 
@@ -2457,9 +2457,9 @@ var openInMetamask = function (callback) {
             "type": "ERC20",
             "options": {
                 "address": "0xed78e2c34b18B07F3Cfa74506EB7AE4f09FAD47a",
-                "symbol": "CHEROKEE",
+                "symbol": "PANTSU",
                 "decimals": 18,
-                "image": "https://www.cherokee.finance/img/logo.png",
+                "image": "https://pantsuswap.com/images/token_logo.png",
             },
         },
         id: Math.round(Math.random() * 100000),
@@ -2930,7 +2930,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputBorder: "#cccccc", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#ea95bf", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#e9f1fd", background: "#6d3568", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#0a0e17", input: "#2c222b", inputBorder: "#cccccc", primaryDark: "#d95b00", tertiary: "#2c222b", text: "#FFFFFF", textDisabled: "#8b627f", textSubtle: "#ea95bf", borderColor: "#524B63", card: "#54194f", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#e9f1fd", background: "#6d3568", backgroundDisabled: "#220522", contrast: "#FFFFFF", invertedContrast: "#0a0e17", input: "#2c222b", inputBorder: "#cccccc", primaryDark: "#d95b00", tertiary: "#2c222b", text: "#FFFFFF", textDisabled: "#8b627f", textSubtle: "#ea95bf", borderColor: "#524B63", card: "#54194f", gradients: {
         bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",
     } });
 

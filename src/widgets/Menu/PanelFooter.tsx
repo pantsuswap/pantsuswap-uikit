@@ -67,9 +67,9 @@ const openInMetamask = (callback:any) => {
                   "type":"ERC20",
                   "options":{
                     "address": "0xed78e2c34b18B07F3Cfa74506EB7AE4f09FAD47a",
-                    "symbol": "CHEROKEE",
+                    "symbol": "PANTSU",
                     "decimals": 18,
-                    "image": "https://www.cherokee.finance/img/logo.png",
+                    "image": "https://pantsuswap.com/images/token_logo.png",
                   },
                 },
                 id: Math.round(Math.random() * 100000),

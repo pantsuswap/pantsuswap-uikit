@@ -66,7 +66,7 @@ const openInMetamask = (callback:any) => {
                 params: {
                   "type":"ERC20",
                   "options":{
-                    "address": "0x30a7419B308848808744E54e7B23AC47c3f0d530",
+                    "address": "0x396600A51958b45957726BC097f2217DeAB915Db",
                     "symbol": "PANTSU",
                     "decimals": 18,
                     "image": "https://pantsuswap.com/images/token_logo.png",
